@@ -45,3 +45,4 @@ class Project:
         """Convert Project to a tab-separated line for saving."""
         date_str = self.start_date.strftime("%d/%m/%Y")
         return f"{self.name}\t{date_str}\t{self.priority}\t{self.cost_estimate}\t{self.completion_percentage}"
+
